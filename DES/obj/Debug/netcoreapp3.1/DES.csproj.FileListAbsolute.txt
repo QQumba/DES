@@ -1,0 +1,13 @@
+C:\study\4\bptd\labs\lab1\DES\bin\Debug\netcoreapp3.1\DES.exe
+C:\study\4\bptd\labs\lab1\DES\bin\Debug\netcoreapp3.1\DES.deps.json
+C:\study\4\bptd\labs\lab1\DES\bin\Debug\netcoreapp3.1\DES.runtimeconfig.json
+C:\study\4\bptd\labs\lab1\DES\bin\Debug\netcoreapp3.1\DES.runtimeconfig.dev.json
+C:\study\4\bptd\labs\lab1\DES\bin\Debug\netcoreapp3.1\DES.dll
+C:\study\4\bptd\labs\lab1\DES\bin\Debug\netcoreapp3.1\DES.pdb
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.csprojAssemblyReference.cache
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.AssemblyInfoInputs.cache
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.AssemblyInfo.cs
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.csproj.CoreCompileInputs.cache
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.dll
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.pdb
+C:\study\4\bptd\labs\lab1\DES\obj\Debug\netcoreapp3.1\DES.genruntimeconfig.cache
