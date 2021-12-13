@@ -134,14 +134,13 @@ namespace lab1
             temp = Permutation(DESValues.P, temp);
             // xor
             left = Xor(left, temp);
-            Console.WriteLine("Round "
-                              + (num + 1) + " "
-                              + right.ToUpper()
-                              + " " + left.ToUpper() + " "
-                              + key.ToUpper());
-
             // swapper
-            return right + left;
+            var result = right + left;
+            // bit entropy
+            var entropy = HexToBin(result).Count(c => c == '1') / 64d;
+            Console.WriteLine($"Round {num + 1} {right.ToUpper()} {left.ToUpper()} {key.ToUpper()} {entropy}");
+
+            return result;
         }
 
         private string EncryptBlock(string plainText, string key)
@@ -177,7 +176,6 @@ namespace lab1
 
         private string DecryptBlock(string plainText, string key)
         {
-            int i;
             // get round keys
             var keys = GetKeys(key);
 
@@ -193,7 +191,7 @@ namespace lab1
                 + "\n");
 
             // 16-rounds
-            for (i = 15; i > -1; i--)
+            for (var i = 15; i > -1; i--)
             {
                 plainText = Round(plainText, keys[i], 15 - i);
             }
@@ -209,7 +207,7 @@ namespace lab1
         {
             var hexText = PlainTextToHex(text);
             var remainingBytes = 16 - hexText.Length % 16;
-            for (var i = 0; i < remainingBytes; i+=2)
+            for (var i = 0; i < remainingBytes; i += 2)
             {
                 hexText += "20";
             }

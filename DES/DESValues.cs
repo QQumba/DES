@@ -19,7 +19,7 @@
             34, 2, 42, 10, 50, 18, 58, 26, 33, 1, 41, 9, 49, 17, 57, 25
         };
 
-        // first key-hePermutation Table
+        // first key-Permutation Table
         public static readonly int[] PC1 =
         {
             57, 49, 41, 33, 25, 17, 9, 1, 58, 50, 42, 34, 26, 18,
